@@ -1,0 +1,574 @@
+2023-04-04 13:28:38,749 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Starting ProjetApplication using Java 19.0.2 on DESKTOP-Q38KIFV with PID 17288 (C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api\target\classes started by Nadine Ziedi in C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api)
+2023-04-04 13:28:38,774 INFO [restartedMain] org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2023-04-04 13:28:38,851 INFO [restartedMain] org.springframework.boot.logging.DeferredLog: Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-04-04 13:28:38,875 INFO [restartedMain] org.springframework.boot.logging.DeferredLog: For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-04-04 13:28:39,564 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-04 13:28:39,645 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 62 ms. Found 4 JPA repository interfaces.
+2023-04-04 13:28:40,424 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8088 (http)
+2023-04-04 13:28:40,442 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:28:40,444 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-04-04 13:28:40,444 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-04-04 13:28:40,534 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-04-04 13:28:40,534 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 1658 ms
+2023-04-04 13:28:40,829 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-04 13:28:40,887 INFO [restartedMain] org.hibernate.Version: HHH000412: Hibernate ORM core version 5.6.1.Final
+2023-04-04 13:28:41,044 INFO [restartedMain] org.hibernate.annotations.common.reflection.java.JavaReflectionManager: HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-04 13:28:41,134 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Starting...
+2023-04-04 13:28:41,414 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Start completed.
+2023-04-04 13:28:41,427 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-04 13:28:41,638 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Client
+2023-04-04 13:28:41,646 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Compteur
+2023-04-04 13:28:41,647 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Marchand
+2023-04-04 13:28:42,181 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-04 13:28:42,185 INFO [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:28:42,764 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-04 13:28:43,194 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3b1b7826, org.springframework.security.web.context.SecurityContextPersistenceFilter@4883f9e1, org.springframework.security.web.header.HeaderWriterFilter@30298f08, org.springframework.web.filter.CorsFilter@1c69a33f, org.springframework.security.web.authentication.logout.LogoutFilter@3bce60ee, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthorizationFilter@120fa57, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthentificationFilter@6f789f20, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1fcab8fe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@664dc32f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f4200a1, org.springframework.security.web.session.SessionManagementFilter@78a3d55, org.springframework.security.web.access.ExceptionTranslationFilter@6d0cf1ef, org.springframework.security.web.access.intercept.AuthorizationFilter@3002f209]
+2023-04-04 13:28:44,057 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2023-04-04 13:28:44,074 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:28:44,094 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8088 (http) with context path ''
+2023-04-04 13:28:44,107 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Started ProjetApplication in 5.699 seconds (JVM running for 6.565)
+2023-04-04 13:30:22,189 INFO [Thread-5] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:30:22,210 INFO [Thread-5] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown initiated...
+2023-04-04 13:30:22,224 INFO [Thread-5] com.zaxxer.hikari.HikariDataSource: HikariPool-1 - Shutdown completed.
+2023-04-04 13:30:22,375 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Starting ProjetApplication using Java 19.0.2 on DESKTOP-Q38KIFV with PID 17288 (C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api\target\classes started by Nadine Ziedi in C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api)
+2023-04-04 13:30:22,376 INFO [restartedMain] org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2023-04-04 13:30:22,611 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-04 13:30:22,644 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 32 ms. Found 4 JPA repository interfaces.
+2023-04-04 13:30:22,774 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8088 (http)
+2023-04-04 13:30:22,776 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:30:22,777 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-04-04 13:30:22,777 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-04-04 13:30:22,796 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-04-04 13:30:22,797 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 418 ms
+2023-04-04 13:30:22,839 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-04 13:30:22,846 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-2 - Starting...
+2023-04-04 13:30:22,861 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-2 - Start completed.
+2023-04-04 13:30:22,862 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-04 13:30:22,870 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Client
+2023-04-04 13:30:22,871 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Compteur
+2023-04-04 13:30:22,873 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Marchand
+2023-04-04 13:30:22,997 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-04 13:30:22,998 INFO [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:30:23,142 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-04 13:30:23,232 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7eb50cdd, org.springframework.security.web.context.SecurityContextPersistenceFilter@27d55980, org.springframework.security.web.header.HeaderWriterFilter@682a0692, org.springframework.web.filter.CorsFilter@35699d06, org.springframework.security.web.authentication.logout.LogoutFilter@165ba984, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthorizationFilter@6083a77d, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthentificationFilter@f3201c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7ed2104a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46f48794, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@56f6073b, org.springframework.security.web.session.SessionManagementFilter@36bd7b6d, org.springframework.security.web.access.ExceptionTranslationFilter@65879b33, org.springframework.security.web.access.intercept.AuthorizationFilter@1acf5bfa]
+2023-04-04 13:30:23,359 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2023-04-04 13:30:23,362 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:30:23,366 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8088 (http) with context path ''
+2023-04-04 13:30:23,370 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Started ProjetApplication in 1.06 seconds (JVM running for 105.824)
+2023-04-04 13:30:23,372 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2023-04-04 13:30:33,046 INFO [Thread-7] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:30:33,047 INFO [Thread-7] com.zaxxer.hikari.HikariDataSource: HikariPool-2 - Shutdown initiated...
+2023-04-04 13:30:33,056 INFO [Thread-7] com.zaxxer.hikari.HikariDataSource: HikariPool-2 - Shutdown completed.
+2023-04-04 13:30:33,152 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Starting ProjetApplication using Java 19.0.2 on DESKTOP-Q38KIFV with PID 17288 (C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api\target\classes started by Nadine Ziedi in C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api)
+2023-04-04 13:30:33,153 INFO [restartedMain] org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2023-04-04 13:30:33,277 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-04 13:30:33,301 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 20 ms. Found 4 JPA repository interfaces.
+2023-04-04 13:30:33,394 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8088 (http)
+2023-04-04 13:30:33,400 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:30:33,400 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-04-04 13:30:33,400 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-04-04 13:30:33,424 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-04-04 13:30:33,424 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 269 ms
+2023-04-04 13:30:33,465 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-04 13:30:33,506 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-3 - Starting...
+2023-04-04 13:30:33,514 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-3 - Start completed.
+2023-04-04 13:30:33,514 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-04 13:30:33,524 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Client
+2023-04-04 13:30:33,524 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Compteur
+2023-04-04 13:30:33,534 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Marchand
+2023-04-04 13:30:33,664 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-04 13:30:33,664 INFO [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:30:33,794 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-04 13:30:33,867 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@194eedbd, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e8248f0, org.springframework.security.web.header.HeaderWriterFilter@d2e3b76, org.springframework.web.filter.CorsFilter@2e07817c, org.springframework.security.web.authentication.logout.LogoutFilter@1d355979, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthorizationFilter@66a9bf8d, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthentificationFilter@5ae88f7a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e3ed7d4, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32b7a0ee, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34a5b29f, org.springframework.security.web.session.SessionManagementFilter@30ea705e, org.springframework.security.web.access.ExceptionTranslationFilter@626e485c, org.springframework.security.web.access.intercept.AuthorizationFilter@2a32d9e3]
+2023-04-04 13:30:34,018 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2023-04-04 13:30:34,026 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:30:34,031 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8088 (http) with context path ''
+2023-04-04 13:30:34,035 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Started ProjetApplication in 0.908 seconds (JVM running for 116.49)
+2023-04-04 13:30:34,035 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2023-04-04 13:30:56,006 INFO [Thread-11] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:30:56,006 INFO [Thread-11] com.zaxxer.hikari.HikariDataSource: HikariPool-3 - Shutdown initiated...
+2023-04-04 13:30:56,018 INFO [Thread-11] com.zaxxer.hikari.HikariDataSource: HikariPool-3 - Shutdown completed.
+2023-04-04 13:30:56,149 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Starting ProjetApplication using Java 19.0.2 on DESKTOP-Q38KIFV with PID 17288 (C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api\target\classes started by Nadine Ziedi in C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api)
+2023-04-04 13:30:56,152 INFO [restartedMain] org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2023-04-04 13:30:56,284 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-04 13:30:56,314 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 24 ms. Found 4 JPA repository interfaces.
+2023-04-04 13:30:56,396 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8088 (http)
+2023-04-04 13:30:56,396 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:30:56,396 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-04-04 13:30:56,396 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-04-04 13:30:56,429 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-04-04 13:30:56,434 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 280 ms
+2023-04-04 13:30:56,469 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-04 13:30:56,477 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-4 - Starting...
+2023-04-04 13:30:56,485 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-4 - Start completed.
+2023-04-04 13:30:56,485 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-04 13:30:56,499 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Client
+2023-04-04 13:30:56,499 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Compteur
+2023-04-04 13:30:56,504 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Marchand
+2023-04-04 13:30:56,599 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-04 13:30:56,599 INFO [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:30:56,754 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-04 13:30:56,804 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2aac39d8, org.springframework.security.web.context.SecurityContextPersistenceFilter@3bd7f552, org.springframework.security.web.header.HeaderWriterFilter@2a68c4a0, org.springframework.web.filter.CorsFilter@25a9b755, org.springframework.security.web.authentication.logout.LogoutFilter@9c0d949, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthorizationFilter@1cfffdf9, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthentificationFilter@75db38de, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1a0324d5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7622aef1, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e72ad44, org.springframework.security.web.session.SessionManagementFilter@60e3607c, org.springframework.security.web.access.ExceptionTranslationFilter@5f6fc34e, org.springframework.security.web.access.intercept.AuthorizationFilter@69d003a3]
+2023-04-04 13:30:56,894 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2023-04-04 13:30:56,902 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:30:56,904 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8088 (http) with context path ''
+2023-04-04 13:30:56,909 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Started ProjetApplication in 0.825 seconds (JVM running for 139.364)
+2023-04-04 13:30:56,909 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2023-04-04 13:31:15,792 INFO [Thread-15] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:31:15,795 INFO [Thread-15] com.zaxxer.hikari.HikariDataSource: HikariPool-4 - Shutdown initiated...
+2023-04-04 13:31:15,800 INFO [Thread-15] com.zaxxer.hikari.HikariDataSource: HikariPool-4 - Shutdown completed.
+2023-04-04 13:31:15,894 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Starting ProjetApplication using Java 19.0.2 on DESKTOP-Q38KIFV with PID 17288 (C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api\target\classes started by Nadine Ziedi in C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api)
+2023-04-04 13:31:15,894 INFO [restartedMain] org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2023-04-04 13:31:16,046 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-04 13:31:16,074 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 23 ms. Found 4 JPA repository interfaces.
+2023-04-04 13:31:16,144 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8088 (http)
+2023-04-04 13:31:16,144 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:31:16,144 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-04-04 13:31:16,152 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-04-04 13:31:16,176 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-04-04 13:31:16,176 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 278 ms
+2023-04-04 13:31:16,217 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-04 13:31:16,224 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-5 - Starting...
+2023-04-04 13:31:16,234 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-5 - Start completed.
+2023-04-04 13:31:16,234 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-04 13:31:16,250 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Client
+2023-04-04 13:31:16,253 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Compteur
+2023-04-04 13:31:16,253 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Marchand
+2023-04-04 13:31:16,346 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-04 13:31:16,346 INFO [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:31:16,476 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-04 13:31:16,544 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b4437c3, org.springframework.security.web.context.SecurityContextPersistenceFilter@50da1ff4, org.springframework.security.web.header.HeaderWriterFilter@721ef76b, org.springframework.web.filter.CorsFilter@ae9249b, org.springframework.security.web.authentication.logout.LogoutFilter@23de5444, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthorizationFilter@769c84fb, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthentificationFilter@5aac8f8a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3ce5e43e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@39c5f966, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20ac4133, org.springframework.security.web.session.SessionManagementFilter@35a5f03e, org.springframework.security.web.access.ExceptionTranslationFilter@4904baf3, org.springframework.security.web.access.intercept.AuthorizationFilter@269151ab]
+2023-04-04 13:31:16,674 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2023-04-04 13:31:16,680 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:31:16,684 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8088 (http) with context path ''
+2023-04-04 13:31:16,689 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Started ProjetApplication in 0.822 seconds (JVM running for 159.143)
+2023-04-04 13:31:16,689 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2023-04-04 13:32:01,362 INFO [Thread-19] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:32:01,363 INFO [Thread-19] com.zaxxer.hikari.HikariDataSource: HikariPool-5 - Shutdown initiated...
+2023-04-04 13:32:01,368 INFO [Thread-19] com.zaxxer.hikari.HikariDataSource: HikariPool-5 - Shutdown completed.
+2023-04-04 13:32:01,473 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Starting ProjetApplication using Java 19.0.2 on DESKTOP-Q38KIFV with PID 17288 (C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api\target\classes started by Nadine Ziedi in C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api)
+2023-04-04 13:32:01,475 INFO [restartedMain] org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2023-04-04 13:32:01,620 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-04 13:32:01,645 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 23 ms. Found 4 JPA repository interfaces.
+2023-04-04 13:32:01,723 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8088 (http)
+2023-04-04 13:32:01,723 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:32:01,724 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-04-04 13:32:01,724 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-04-04 13:32:01,746 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-04-04 13:32:01,746 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 269 ms
+2023-04-04 13:32:01,779 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-04 13:32:01,783 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-6 - Starting...
+2023-04-04 13:32:01,795 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-6 - Start completed.
+2023-04-04 13:32:01,795 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-04 13:32:01,800 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Client
+2023-04-04 13:32:01,803 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Compteur
+2023-04-04 13:32:01,804 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Marchand
+2023-04-04 13:32:01,884 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-04 13:32:01,884 INFO [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:32:02,002 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-04 13:32:02,068 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38d7774c, org.springframework.security.web.context.SecurityContextPersistenceFilter@9df0273, org.springframework.security.web.header.HeaderWriterFilter@2bc5e80b, org.springframework.web.filter.CorsFilter@68b3ead6, org.springframework.security.web.authentication.logout.LogoutFilter@7ec5de2e, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthorizationFilter@13505b9, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthentificationFilter@1a09f316, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@494f678d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4dce5b1f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@19e78a0c, org.springframework.security.web.session.SessionManagementFilter@b4937a1, org.springframework.security.web.access.ExceptionTranslationFilter@59333c71, org.springframework.security.web.access.intercept.AuthorizationFilter@73ad1158]
+2023-04-04 13:32:02,188 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2023-04-04 13:32:02,195 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:32:02,208 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8088 (http) with context path ''
+2023-04-04 13:32:02,212 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Started ProjetApplication in 0.775 seconds (JVM running for 204.666)
+2023-04-04 13:32:02,213 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2023-04-04 13:33:17,610 INFO [Thread-23] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:33:17,612 INFO [Thread-23] com.zaxxer.hikari.HikariDataSource: HikariPool-6 - Shutdown initiated...
+2023-04-04 13:33:17,620 INFO [Thread-23] com.zaxxer.hikari.HikariDataSource: HikariPool-6 - Shutdown completed.
+2023-04-04 13:33:17,724 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Starting ProjetApplication using Java 19.0.2 on DESKTOP-Q38KIFV with PID 17288 (C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api\target\classes started by Nadine Ziedi in C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api)
+2023-04-04 13:33:17,724 INFO [restartedMain] org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2023-04-04 13:33:17,874 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-04 13:33:17,897 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 25 ms. Found 4 JPA repository interfaces.
+2023-04-04 13:33:17,978 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8088 (http)
+2023-04-04 13:33:17,978 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:33:17,978 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-04-04 13:33:17,978 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-04-04 13:33:17,994 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-04-04 13:33:17,994 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 270 ms
+2023-04-04 13:33:18,027 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-04 13:33:18,034 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-7 - Starting...
+2023-04-04 13:33:18,045 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-7 - Start completed.
+2023-04-04 13:33:18,045 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-04 13:33:18,054 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Client
+2023-04-04 13:33:18,060 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Compteur
+2023-04-04 13:33:18,060 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Marchand
+2023-04-04 13:33:18,219 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-04 13:33:18,219 INFO [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:33:18,335 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-04 13:33:18,394 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6d498276, org.springframework.security.web.context.SecurityContextPersistenceFilter@7c31f02e, org.springframework.security.web.header.HeaderWriterFilter@a1b7af3, org.springframework.web.filter.CorsFilter@5550221c, org.springframework.security.web.authentication.logout.LogoutFilter@787e4df, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthorizationFilter@5769c648, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthentificationFilter@2c3993ad, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5a6975b9, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@bf450e5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@dc2fe6e, org.springframework.security.web.session.SessionManagementFilter@2c6a64b6, org.springframework.security.web.access.ExceptionTranslationFilter@489dcc75, org.springframework.security.web.access.intercept.AuthorizationFilter@3f88947c]
+2023-04-04 13:33:18,514 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2023-04-04 13:33:18,519 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:33:18,519 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8088 (http) with context path ''
+2023-04-04 13:33:18,522 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Started ProjetApplication in 0.838 seconds (JVM running for 280.978)
+2023-04-04 13:33:18,524 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2023-04-04 13:34:47,468 INFO [Thread-27] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:34:47,469 INFO [Thread-27] com.zaxxer.hikari.HikariDataSource: HikariPool-7 - Shutdown initiated...
+2023-04-04 13:34:47,475 INFO [Thread-27] com.zaxxer.hikari.HikariDataSource: HikariPool-7 - Shutdown completed.
+2023-04-04 13:34:47,593 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Starting ProjetApplication using Java 19.0.2 on DESKTOP-Q38KIFV with PID 17288 (C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api\target\classes started by Nadine Ziedi in C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api)
+2023-04-04 13:34:47,593 INFO [restartedMain] org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2023-04-04 13:34:47,741 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-04 13:34:47,767 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 25 ms. Found 4 JPA repository interfaces.
+2023-04-04 13:34:47,841 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8088 (http)
+2023-04-04 13:34:47,842 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:34:47,843 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-04-04 13:34:47,843 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-04-04 13:34:47,874 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-04-04 13:34:47,910 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 314 ms
+2023-04-04 13:34:47,953 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-04 13:34:47,959 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-8 - Starting...
+2023-04-04 13:34:47,972 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-8 - Start completed.
+2023-04-04 13:34:47,972 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-04 13:34:47,983 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Client
+2023-04-04 13:34:47,985 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Compteur
+2023-04-04 13:34:47,986 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Marchand
+2023-04-04 13:34:48,075 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-04 13:34:48,076 INFO [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:34:48,202 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-04 13:34:48,261 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@125bcacf, org.springframework.security.web.context.SecurityContextPersistenceFilter@5bc3d1a, org.springframework.security.web.header.HeaderWriterFilter@13b70b6c, org.springframework.web.filter.CorsFilter@545c0429, org.springframework.security.web.authentication.logout.LogoutFilter@222c9db0, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthorizationFilter@513c6cb, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthentificationFilter@11c4858e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@40bd4a00, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b7ac510, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5d8528cb, org.springframework.security.web.session.SessionManagementFilter@5351fc4, org.springframework.security.web.access.ExceptionTranslationFilter@235cd30e, org.springframework.security.web.access.intercept.AuthorizationFilter@358438e7]
+2023-04-04 13:34:48,360 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2023-04-04 13:34:48,365 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:34:48,367 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8088 (http) with context path ''
+2023-04-04 13:34:48,370 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Started ProjetApplication in 0.814 seconds (JVM running for 370.824)
+2023-04-04 13:34:48,372 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2023-04-04 13:35:41,143 INFO [Thread-31] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:35:41,145 INFO [Thread-31] com.zaxxer.hikari.HikariDataSource: HikariPool-8 - Shutdown initiated...
+2023-04-04 13:35:41,153 INFO [Thread-31] com.zaxxer.hikari.HikariDataSource: HikariPool-8 - Shutdown completed.
+2023-04-04 13:35:41,249 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Starting ProjetApplication using Java 19.0.2 on DESKTOP-Q38KIFV with PID 17288 (C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api\target\classes started by Nadine Ziedi in C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api)
+2023-04-04 13:35:41,250 INFO [restartedMain] org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2023-04-04 13:35:41,369 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-04 13:35:41,390 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 21 ms. Found 4 JPA repository interfaces.
+2023-04-04 13:35:41,464 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8088 (http)
+2023-04-04 13:35:41,466 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:35:41,466 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-04-04 13:35:41,467 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-04-04 13:35:41,473 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-04-04 13:35:41,473 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 221 ms
+2023-04-04 13:35:41,497 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-04 13:35:41,505 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-9 - Starting...
+2023-04-04 13:35:41,514 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-9 - Start completed.
+2023-04-04 13:35:41,514 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-04 13:35:41,522 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Client
+2023-04-04 13:35:41,522 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Compteur
+2023-04-04 13:35:41,522 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Marchand
+2023-04-04 13:35:41,654 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-04 13:35:41,654 INFO [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:35:41,752 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-04 13:35:41,834 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@33d3cecd, org.springframework.security.web.context.SecurityContextPersistenceFilter@f07c128, org.springframework.security.web.header.HeaderWriterFilter@4e3e18f7, org.springframework.web.filter.CorsFilter@353c954c, org.springframework.security.web.authentication.logout.LogoutFilter@7c0f4ccf, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthorizationFilter@6516f6c4, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthentificationFilter@6e09d313, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@783d14aa, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46fa52fa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4301ddb9, org.springframework.security.web.session.SessionManagementFilter@6ccce1b4, org.springframework.security.web.access.ExceptionTranslationFilter@61c2d1eb, org.springframework.security.web.access.intercept.AuthorizationFilter@78fe7d48]
+2023-04-04 13:35:41,923 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2023-04-04 13:35:41,923 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:35:41,932 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8088 (http) with context path ''
+2023-04-04 13:35:41,932 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Started ProjetApplication in 0.715 seconds (JVM running for 424.389)
+2023-04-04 13:35:41,932 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2023-04-04 13:45:43,666 WARN [HikariPool-9 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper: HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=2m1s889ms670µs300ns).
+2023-04-04 13:58:32,738 INFO [Thread-35] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:58:32,738 INFO [Thread-35] com.zaxxer.hikari.HikariDataSource: HikariPool-9 - Shutdown initiated...
+2023-04-04 13:58:32,746 INFO [Thread-35] com.zaxxer.hikari.HikariDataSource: HikariPool-9 - Shutdown completed.
+2023-04-04 13:58:32,843 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Starting ProjetApplication using Java 19.0.2 on DESKTOP-Q38KIFV with PID 17288 (C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api\target\classes started by Nadine Ziedi in C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api)
+2023-04-04 13:58:32,843 INFO [restartedMain] org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2023-04-04 13:58:32,943 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-04 13:58:32,959 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 16 ms. Found 4 JPA repository interfaces.
+2023-04-04 13:58:33,032 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8088 (http)
+2023-04-04 13:58:33,032 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:58:33,032 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-04-04 13:58:33,032 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-04-04 13:58:33,049 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-04-04 13:58:33,049 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 206 ms
+2023-04-04 13:58:33,082 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-04 13:58:33,082 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-10 - Starting...
+2023-04-04 13:58:33,090 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-10 - Start completed.
+2023-04-04 13:58:33,090 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-04 13:58:33,098 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Client
+2023-04-04 13:58:33,098 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Compteur
+2023-04-04 13:58:33,106 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Marchand
+2023-04-04 13:58:33,182 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-04 13:58:33,182 INFO [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:58:33,303 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-04 13:58:33,361 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4370f771, org.springframework.security.web.context.SecurityContextPersistenceFilter@59e4c84e, org.springframework.security.web.header.HeaderWriterFilter@73ef5561, org.springframework.web.filter.CorsFilter@24d9586d, org.springframework.security.web.authentication.logout.LogoutFilter@7242a18b, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthorizationFilter@7e2c0367, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthentificationFilter@7acf33c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6af02624, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@633d2246, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@432357c7, org.springframework.security.web.session.SessionManagementFilter@2149e027, org.springframework.security.web.access.ExceptionTranslationFilter@2cb3f284, org.springframework.security.web.access.intercept.AuthorizationFilter@134d5688]
+2023-04-04 13:58:33,433 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2023-04-04 13:58:33,441 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:58:33,443 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8088 (http) with context path ''
+2023-04-04 13:58:33,445 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Started ProjetApplication in 0.624 seconds (JVM running for 1795.902)
+2023-04-04 13:58:33,445 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2023-04-04 13:59:19,039 INFO [Thread-39] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:59:19,039 INFO [Thread-39] com.zaxxer.hikari.HikariDataSource: HikariPool-10 - Shutdown initiated...
+2023-04-04 13:59:19,047 INFO [Thread-39] com.zaxxer.hikari.HikariDataSource: HikariPool-10 - Shutdown completed.
+2023-04-04 13:59:19,152 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Starting ProjetApplication using Java 19.0.2 on DESKTOP-Q38KIFV with PID 17288 (C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api\target\classes started by Nadine Ziedi in C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api)
+2023-04-04 13:59:19,152 INFO [restartedMain] org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2023-04-04 13:59:19,309 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-04 13:59:19,333 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 20 ms. Found 4 JPA repository interfaces.
+2023-04-04 13:59:19,415 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8088 (http)
+2023-04-04 13:59:19,415 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:59:19,415 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-04-04 13:59:19,415 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-04-04 13:59:19,423 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-04-04 13:59:19,432 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 280 ms
+2023-04-04 13:59:19,448 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-04 13:59:19,464 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-11 - Starting...
+2023-04-04 13:59:19,473 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-11 - Start completed.
+2023-04-04 13:59:19,473 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-04 13:59:19,481 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Client
+2023-04-04 13:59:19,484 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Compteur
+2023-04-04 13:59:19,484 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Marchand
+2023-04-04 13:59:19,555 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-04 13:59:19,555 INFO [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:59:19,668 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-04 13:59:19,758 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2452354, org.springframework.security.web.context.SecurityContextPersistenceFilter@7745821a, org.springframework.security.web.header.HeaderWriterFilter@7865192d, org.springframework.web.filter.CorsFilter@1749d3b5, org.springframework.security.web.authentication.logout.LogoutFilter@a53e940, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthorizationFilter@6fdb2348, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthentificationFilter@6af965d4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@749aa85e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24667b91, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@418db45c, org.springframework.security.web.session.SessionManagementFilter@59259d7b, org.springframework.security.web.access.ExceptionTranslationFilter@711e5854, org.springframework.security.web.access.intercept.AuthorizationFilter@3c87340b]
+2023-04-04 13:59:19,871 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2023-04-04 13:59:19,879 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:59:19,881 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8088 (http) with context path ''
+2023-04-04 13:59:19,883 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Started ProjetApplication in 0.757 seconds (JVM running for 1842.339)
+2023-04-04 13:59:19,883 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2023-04-04 13:59:32,708 INFO [Thread-43] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:59:32,708 INFO [Thread-43] com.zaxxer.hikari.HikariDataSource: HikariPool-11 - Shutdown initiated...
+2023-04-04 13:59:32,716 INFO [Thread-43] com.zaxxer.hikari.HikariDataSource: HikariPool-11 - Shutdown completed.
+2023-04-04 13:59:32,823 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Starting ProjetApplication using Java 19.0.2 on DESKTOP-Q38KIFV with PID 17288 (C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api\target\classes started by Nadine Ziedi in C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api)
+2023-04-04 13:59:32,823 INFO [restartedMain] org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2023-04-04 13:59:32,928 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-04 13:59:32,952 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 23 ms. Found 4 JPA repository interfaces.
+2023-04-04 13:59:33,009 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8088 (http)
+2023-04-04 13:59:33,017 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:59:33,017 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-04-04 13:59:33,017 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-04-04 13:59:33,033 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-04-04 13:59:33,033 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 210 ms
+2023-04-04 13:59:33,049 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-04 13:59:33,057 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-12 - Starting...
+2023-04-04 13:59:33,066 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-12 - Start completed.
+2023-04-04 13:59:33,066 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-04 13:59:33,074 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Client
+2023-04-04 13:59:33,074 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Compteur
+2023-04-04 13:59:33,074 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Marchand
+2023-04-04 13:59:33,156 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-04 13:59:33,156 INFO [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:59:33,254 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-04 13:59:33,302 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19dde09b, org.springframework.security.web.context.SecurityContextPersistenceFilter@7db80046, org.springframework.security.web.header.HeaderWriterFilter@367b676c, org.springframework.web.filter.CorsFilter@6ef23a5c, org.springframework.security.web.authentication.logout.LogoutFilter@6893f96d, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthorizationFilter@4614db09, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthentificationFilter@3db273cb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@701df14f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1db0a827, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4b1d95de, org.springframework.security.web.session.SessionManagementFilter@c188e86, org.springframework.security.web.access.ExceptionTranslationFilter@519b9668, org.springframework.security.web.access.intercept.AuthorizationFilter@6f7285ed]
+2023-04-04 13:59:33,440 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2023-04-04 13:59:33,440 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:59:33,448 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8088 (http) with context path ''
+2023-04-04 13:59:33,448 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Started ProjetApplication in 0.663 seconds (JVM running for 1855.907)
+2023-04-04 13:59:33,448 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2023-04-04 13:59:52,416 INFO [Thread-47] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:59:52,418 INFO [Thread-47] com.zaxxer.hikari.HikariDataSource: HikariPool-12 - Shutdown initiated...
+2023-04-04 13:59:52,435 INFO [Thread-47] com.zaxxer.hikari.HikariDataSource: HikariPool-12 - Shutdown completed.
+2023-04-04 13:59:52,547 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Starting ProjetApplication using Java 19.0.2 on DESKTOP-Q38KIFV with PID 17288 (C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api\target\classes started by Nadine Ziedi in C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api)
+2023-04-04 13:59:52,548 INFO [restartedMain] org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2023-04-04 13:59:52,650 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-04 13:59:52,693 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 22 ms. Found 4 JPA repository interfaces.
+2023-04-04 13:59:52,749 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8088 (http)
+2023-04-04 13:59:52,749 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:59:52,749 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-04-04 13:59:52,749 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-04-04 13:59:52,765 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-04-04 13:59:52,774 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 224 ms
+2023-04-04 13:59:52,798 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-04 13:59:52,798 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-13 - Starting...
+2023-04-04 13:59:52,806 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-13 - Start completed.
+2023-04-04 13:59:52,814 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-04 13:59:52,814 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Client
+2023-04-04 13:59:52,814 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Compteur
+2023-04-04 13:59:52,823 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Marchand
+2023-04-04 13:59:52,896 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-04 13:59:52,896 INFO [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 13:59:52,994 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-04 13:59:53,044 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@485e3b42, org.springframework.security.web.context.SecurityContextPersistenceFilter@2e9f72ff, org.springframework.security.web.header.HeaderWriterFilter@11343faa, org.springframework.web.filter.CorsFilter@7bf8157c, org.springframework.security.web.authentication.logout.LogoutFilter@3fc18a87, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthorizationFilter@67bedfdf, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthentificationFilter@9c8d405, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@16c2ac90, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@263b188d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@30f57a55, org.springframework.security.web.session.SessionManagementFilter@353f2a89, org.springframework.security.web.access.ExceptionTranslationFilter@11953e12, org.springframework.security.web.access.intercept.AuthorizationFilter@42659fa2]
+2023-04-04 13:59:53,126 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2023-04-04 13:59:53,126 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 13:59:53,134 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8088 (http) with context path ''
+2023-04-04 13:59:53,134 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Started ProjetApplication in 0.623 seconds (JVM running for 1875.592)
+2023-04-04 13:59:53,134 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2023-04-04 14:00:35,545 INFO [Thread-51] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 14:00:35,546 INFO [Thread-51] com.zaxxer.hikari.HikariDataSource: HikariPool-13 - Shutdown initiated...
+2023-04-04 14:00:35,551 INFO [Thread-51] com.zaxxer.hikari.HikariDataSource: HikariPool-13 - Shutdown completed.
+2023-04-04 14:00:35,649 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Starting ProjetApplication using Java 19.0.2 on DESKTOP-Q38KIFV with PID 17288 (C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api\target\classes started by Nadine Ziedi in C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api)
+2023-04-04 14:00:35,649 INFO [restartedMain] org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2023-04-04 14:00:35,755 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-04 14:00:35,783 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 20 ms. Found 4 JPA repository interfaces.
+2023-04-04 14:00:35,844 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8088 (http)
+2023-04-04 14:00:35,852 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 14:00:35,852 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-04-04 14:00:35,852 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-04-04 14:00:35,860 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-04-04 14:00:35,868 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 217 ms
+2023-04-04 14:00:35,885 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-04 14:00:35,893 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-14 - Starting...
+2023-04-04 14:00:35,901 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-14 - Start completed.
+2023-04-04 14:00:35,901 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-04 14:00:35,909 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Client
+2023-04-04 14:00:35,909 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Compteur
+2023-04-04 14:00:35,918 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Marchand
+2023-04-04 14:00:36,000 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-04 14:00:36,000 INFO [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 14:00:36,126 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-04 14:00:36,183 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2159a135, org.springframework.security.web.context.SecurityContextPersistenceFilter@47c0417f, org.springframework.security.web.header.HeaderWriterFilter@7e2b5311, org.springframework.web.filter.CorsFilter@13366590, org.springframework.security.web.authentication.logout.LogoutFilter@3a711583, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthorizationFilter@107e2a78, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthentificationFilter@c3d8803, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@580379dc, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c940a16, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6001c0b8, org.springframework.security.web.session.SessionManagementFilter@2d05ddab, org.springframework.security.web.access.ExceptionTranslationFilter@51f9c4a7, org.springframework.security.web.access.intercept.AuthorizationFilter@25e7270b]
+2023-04-04 14:00:36,281 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2023-04-04 14:00:36,281 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 14:00:36,281 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8088 (http) with context path ''
+2023-04-04 14:00:36,289 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Started ProjetApplication in 0.668 seconds (JVM running for 1918.744)
+2023-04-04 14:00:36,289 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2023-04-04 14:31:46,810 WARN [HikariPool-14 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper: HikariPool-14 - Thread starvation or clock leap detected (housekeeper delta=1m58s521ms200µs401ns).
+2023-04-04 14:38:11,566 WARN [HikariPool-14 housekeeper] com.zaxxer.hikari.pool.HikariPool$HouseKeeper: HikariPool-14 - Thread starvation or clock leap detected (housekeeper delta=2m54s696ms973µs200ns).
+2023-04-04 14:55:52,562 INFO [Thread-55] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 14:55:52,565 INFO [Thread-55] com.zaxxer.hikari.HikariDataSource: HikariPool-14 - Shutdown initiated...
+2023-04-04 14:55:52,570 INFO [Thread-55] com.zaxxer.hikari.HikariDataSource: HikariPool-14 - Shutdown completed.
+2023-04-04 14:55:52,720 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Starting ProjetApplication using Java 19.0.2 on DESKTOP-Q38KIFV with PID 17288 (C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api\target\classes started by Nadine Ziedi in C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api)
+2023-04-04 14:55:52,720 INFO [restartedMain] org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2023-04-04 14:55:52,836 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-04 14:55:52,861 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 19 ms. Found 4 JPA repository interfaces.
+2023-04-04 14:55:52,950 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8088 (http)
+2023-04-04 14:55:52,950 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 14:55:52,950 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-04-04 14:55:52,950 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-04-04 14:55:52,966 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-04-04 14:55:52,966 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 242 ms
+2023-04-04 14:55:52,999 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-04 14:55:53,007 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-15 - Starting...
+2023-04-04 14:55:53,023 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-15 - Start completed.
+2023-04-04 14:55:53,023 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-04 14:55:53,031 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Client
+2023-04-04 14:55:53,048 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Compteur
+2023-04-04 14:55:53,056 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Marchand
+2023-04-04 14:55:53,300 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-04 14:55:53,300 INFO [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 14:55:53,390 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-04 14:55:53,455 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ae01e04, org.springframework.security.web.context.SecurityContextPersistenceFilter@896c404, org.springframework.security.web.header.HeaderWriterFilter@28183038, org.springframework.web.filter.CorsFilter@23ab46b6, org.springframework.security.web.authentication.logout.LogoutFilter@35ff9fb9, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthorizationFilter@29aa551c, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthentificationFilter@69943189, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6807e04d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f79485, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3ee1281, org.springframework.security.web.session.SessionManagementFilter@4b98225e, org.springframework.security.web.access.ExceptionTranslationFilter@49153c9f, org.springframework.security.web.access.intercept.AuthorizationFilter@5f43e7bf]
+2023-04-04 14:55:53,537 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2023-04-04 14:55:53,537 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 14:55:53,537 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8088 (http) with context path ''
+2023-04-04 14:55:53,545 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Started ProjetApplication in 0.877 seconds (JVM running for 5236.002)
+2023-04-04 14:55:53,545 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2023-04-04 14:56:21,820 INFO [Thread-59] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 14:56:21,821 INFO [Thread-59] com.zaxxer.hikari.HikariDataSource: HikariPool-15 - Shutdown initiated...
+2023-04-04 14:56:21,825 INFO [Thread-59] com.zaxxer.hikari.HikariDataSource: HikariPool-15 - Shutdown completed.
+2023-04-04 14:56:21,931 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Starting ProjetApplication using Java 19.0.2 on DESKTOP-Q38KIFV with PID 17288 (C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api\target\classes started by Nadine Ziedi in C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api)
+2023-04-04 14:56:21,932 INFO [restartedMain] org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2023-04-04 14:56:22,007 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-04 14:56:22,022 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 14 ms. Found 4 JPA repository interfaces.
+2023-04-04 14:56:22,077 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8088 (http)
+2023-04-04 14:56:22,078 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 14:56:22,079 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-04-04 14:56:22,079 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-04-04 14:56:22,092 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-04-04 14:56:22,092 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 159 ms
+2023-04-04 14:56:22,119 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-04 14:56:22,123 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-16 - Starting...
+2023-04-04 14:56:22,134 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-16 - Start completed.
+2023-04-04 14:56:22,134 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-04 14:56:22,141 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Client
+2023-04-04 14:56:22,144 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Compteur
+2023-04-04 14:56:22,146 WARN [restartedMain] org.springframework.context.support.AbstractApplicationContext: Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: Set
+2023-04-04 14:56:22,147 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-16 - Shutdown initiated...
+2023-04-04 14:56:22,150 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-16 - Shutdown completed.
+2023-04-04 14:56:22,151 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Stopping service [Tomcat]
+2023-04-04 14:56:22,155 INFO [restartedMain] org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener: 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-04-04 14:56:22,174 ERROR [restartedMain] org.springframework.boot.SpringApplication: Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is java.lang.NoClassDefFoundError: Set
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1804)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:620)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:542)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1154)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:908)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:730)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:412)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:302)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1301)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1290)
+	at com.arabsoft.pfe.projet.ProjetApplication.main(ProjetApplication.java:18)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.NoClassDefFoundError: Set
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method)
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3458)
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2557)
+	at org.hibernate.annotations.common.reflection.java.JavaXClass.getDeclaredMethodProperties(JavaXClass.java:97)
+	at org.hibernate.annotations.common.reflection.java.JavaXClass.getDeclaredProperties(JavaXClass.java:116)
+	at org.hibernate.annotations.common.reflection.java.JavaXClass.getDeclaredProperties(JavaXClass.java:108)
+	at org.hibernate.cfg.InheritanceState.determineDefaultAccessType(InheritanceState.java:252)
+	at org.hibernate.cfg.InheritanceState.getElementsToProcess(InheritanceState.java:211)
+	at org.hibernate.cfg.AnnotationBinder.bindClass(AnnotationBinder.java:786)
+	at org.hibernate.boot.model.source.internal.annotations.AnnotationMetadataSourceProcessorImpl.processEntityHierarchies(AnnotationMetadataSourceProcessorImpl.java:225)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess$1.processEntityHierarchies(MetadataBuildingProcess.java:239)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:282)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:1460)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:1494)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:58)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:365)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:409)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:396)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.afterPropertiesSet(LocalContainerEntityManagerFactoryBean.java:341)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1863)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1800)
+	... 19 more
+Caused by: java.lang.ClassNotFoundException: Set
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:495)
+	at java.base/java.lang.Class.forName(Class.java:474)
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:145)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 40 more
+2023-04-04 15:00:22,401 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Starting ProjetApplication using Java 19.0.2 on DESKTOP-Q38KIFV with PID 17288 (C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api\target\classes started by Nadine Ziedi in C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api)
+2023-04-04 15:00:22,402 INFO [restartedMain] org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2023-04-04 15:00:22,550 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-04 15:00:22,570 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 19 ms. Found 4 JPA repository interfaces.
+2023-04-04 15:00:22,648 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8088 (http)
+2023-04-04 15:00:22,649 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 15:00:22,649 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-04-04 15:00:22,650 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-04-04 15:00:22,684 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-04-04 15:00:22,684 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 281 ms
+2023-04-04 15:00:22,716 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-04 15:00:22,718 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-17 - Starting...
+2023-04-04 15:00:22,730 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-17 - Start completed.
+2023-04-04 15:00:22,731 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-04 15:00:22,737 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Client
+2023-04-04 15:00:22,741 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Compteur
+2023-04-04 15:00:22,743 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Marchand
+2023-04-04 15:00:22,860 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-04 15:00:22,864 INFO [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 15:00:22,973 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-04 15:00:23,031 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4a7595a7, org.springframework.security.web.context.SecurityContextPersistenceFilter@7bae0443, org.springframework.security.web.header.HeaderWriterFilter@235c794e, org.springframework.web.filter.CorsFilter@4e0eda12, org.springframework.security.web.authentication.logout.LogoutFilter@d3129c2, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthorizationFilter@796997a, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthentificationFilter@2a384d65, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@536e6e78, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@13b8fb52, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4c063d28, org.springframework.security.web.session.SessionManagementFilter@2286e3a5, org.springframework.security.web.access.ExceptionTranslationFilter@1c4695c3, org.springframework.security.web.access.intercept.AuthorizationFilter@79ba972a]
+2023-04-04 15:00:23,132 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2023-04-04 15:00:23,138 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 15:00:23,142 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8088 (http) with context path ''
+2023-04-04 15:00:23,144 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Started ProjetApplication in 0.768 seconds (JVM running for 5505.598)
+2023-04-04 15:00:23,146 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
+2023-04-04 15:00:52,505 INFO [Thread-63] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 15:00:52,509 INFO [Thread-63] com.zaxxer.hikari.HikariDataSource: HikariPool-17 - Shutdown initiated...
+2023-04-04 15:00:52,512 INFO [Thread-63] com.zaxxer.hikari.HikariDataSource: HikariPool-17 - Shutdown completed.
+2023-04-04 15:00:52,632 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Starting ProjetApplication using Java 19.0.2 on DESKTOP-Q38KIFV with PID 17288 (C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api\target\classes started by Nadine Ziedi in C:\Users\Nadine Ziedi\Desktop\pfe\rest_api\rest_api)
+2023-04-04 15:00:52,632 INFO [restartedMain] org.springframework.boot.SpringApplication: No active profile set, falling back to default profiles: default
+2023-04-04 15:00:52,737 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-04 15:00:52,765 INFO [restartedMain] org.springframework.data.repository.config.RepositoryConfigurationDelegate: Finished Spring Data repository scanning in 19 ms. Found 4 JPA repository interfaces.
+2023-04-04 15:00:52,830 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat initialized with port(s): 8088 (http)
+2023-04-04 15:00:52,830 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 15:00:52,830 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting service [Tomcat]
+2023-04-04 15:00:52,830 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting Servlet engine: [Apache Tomcat/9.0.55]
+2023-04-04 15:00:52,854 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Initializing Spring embedded WebApplicationContext
+2023-04-04 15:00:52,854 INFO [restartedMain] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext: Root WebApplicationContext: initialization completed in 219 ms
+2023-04-04 15:00:52,919 INFO [restartedMain] org.hibernate.jpa.internal.util.LogHelper: HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-04 15:00:52,919 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-18 - Starting...
+2023-04-04 15:00:52,935 INFO [restartedMain] com.zaxxer.hikari.HikariDataSource: HikariPool-18 - Start completed.
+2023-04-04 15:00:52,935 INFO [restartedMain] org.hibernate.dialect.Dialect: HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2023-04-04 15:00:52,943 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Client
+2023-04-04 15:00:52,943 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Compteur
+2023-04-04 15:00:52,951 WARN [restartedMain] org.hibernate.cfg.AnnotationBinder: HHH000139: Illegal use of @Table in a subclass of a SINGLE_TABLE hierarchy: com.arabsoft.pfe.projet.model.forfaitprep.Marchand
+2023-04-04 15:00:53,057 INFO [restartedMain] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator: HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-04 15:00:53,057 INFO [restartedMain] org.springframework.orm.jpa.AbstractEntityManagerFactoryBean: Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-04 15:00:53,162 WARN [restartedMain] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration: spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-04 15:00:53,205 INFO [restartedMain] org.springframework.security.web.DefaultSecurityFilterChain: Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@c07ab2c, org.springframework.security.web.context.SecurityContextPersistenceFilter@5459a794, org.springframework.security.web.header.HeaderWriterFilter@7c7251c2, org.springframework.web.filter.CorsFilter@5c7a86bb, org.springframework.security.web.authentication.logout.LogoutFilter@5da1a186, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthorizationFilter@5758a40e, com.arabsoft.pfe.projet.config.securite.filter.CustomerAuthentificationFilter@111c495c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@8e78bdb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@66f53744, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20f3de98, org.springframework.security.web.session.SessionManagementFilter@4e5d8aee, org.springframework.security.web.access.ExceptionTranslationFilter@6ac6d490, org.springframework.security.web.access.intercept.AuthorizationFilter@262c15cc]
+2023-04-04 15:00:53,277 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer: LiveReload server is running on port 35729
+2023-04-04 15:00:53,277 INFO [restartedMain] org.apache.juli.logging.DirectJDKLog: Starting ProtocolHandler ["http-nio-0.0.0.0-8088"]
+2023-04-04 15:00:53,285 INFO [restartedMain] org.springframework.boot.web.embedded.tomcat.TomcatWebServer: Tomcat started on port(s): 8088 (http) with context path ''
+2023-04-04 15:00:53,288 INFO [restartedMain] org.springframework.boot.StartupInfoLogger: Started ProjetApplication in 0.685 seconds (JVM running for 5535.743)
+2023-04-04 15:00:53,291 INFO [restartedMain] org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener: Condition evaluation unchanged
